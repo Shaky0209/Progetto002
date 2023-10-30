@@ -1,0 +1,162 @@
+body{
+    background-color: lightgrey;
+    padding: 0px;
+    margin: 0px;
+}
+
+.head-cont{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+.head{
+    height: 50px;
+    background-color: rgb(28, 36, 58);
+}
+
+#logo{
+    height: 30px;
+    padding: 12px;
+}
+
+.nav{
+    height: 30px;
+    background-color: rgb(57, 63, 78);
+    
+}
+
+.nav a{
+    position: relative;
+    top: 5px;
+    color: white;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+.cont{
+    margin-top: 70px;
+    border: 2vw solid lightgray;
+}
+
+.first-element{
+    height: 40px;
+    background-color: orangered;
+}
+
+.first-element p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.holiday{
+    position: relative;
+    margin-top: 20px;
+    z-index: -1;
+}
+
+.img1{
+    background-image: url("bg-image.png");
+    background-size: contain;
+    height: 239px;
+}
+
+.write{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;    
+}
+
+.first-row{
+    margin: 0;
+    top: 70px;
+    left: 35%;
+    font-size: 32pt;
+}
+
+.second-row{
+    margin: 0;
+    top: 150px;
+    left: 42%;
+    font-size: 16pt;
+}
+
+.shop{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 11px;
+}
+.perfect{
+    background-color: white;
+    height: 27vw;
+}
+
+.p-img1{
+    padding-top: 1vw;
+    margin-left: calc((94vw - 20vw * 4) / 5);
+}
+
+.p-img1 a, .p-img2 a{
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(18, 119, 69);
+    margin-left: 10px;
+}
+
+.w-img{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+.cont-img img{
+    margin: 0;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 30px;
+    margin-left: calc((94vw - 20vw * 4) / 5);
+    box-shadow: 10px 10px 10px rgb(139, 139, 139);
+}
+
+.cont-down img{
+    width: 100%;
+    margin-top:2vw;
+}
+
+.p-img2{
+    text-align: center;
+    margin: 0;
+}
+
+.back{
+    background-color: rgb(57, 63, 78);
+    height: 50px;
+    width: 100vw;
+}
+
+.back a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-left: calc((100vw - 113px)/2);
+    position: relative;
+    top: 13px;
+}
+
+.amazon{
+    background-color: rgb(28, 36, 58);
+    height: 200px;
+    width: 100vw;
+}
+
+.amazon img{
+    width: 180px;
+    position: relative;
+    top: 68px;
+    margin-left: calc((100vw - 180px)/2);
+}
